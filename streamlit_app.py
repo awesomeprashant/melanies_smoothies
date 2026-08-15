@@ -37,17 +37,12 @@ if ingredients_list:
     
     # st.write(ingredients_string)        
 
-    #my_insert_stmt = """ insert into smoothies.public.orders(ingredients,NAME_ON_ORDER)
+    # my_insert_stmt = """ insert into smoothies.public.orders(ingredients,NAME_ON_ORDER)
     #                    values ('""" + ingredients_string + """', 
     #                    '""" + name_on_order + """')"""
     
-    #st.write(my_insert_stmt)
+    # st.write(my_insert_stmt)
 
-    #if ingredients_string:
+    # if ingredients_string:
     #    session.sql(my_insert_stmt).collect()
     #    st.success('Your Smoothie is ordered!', icon="✅")
-
-
-
-
-
